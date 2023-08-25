@@ -2,6 +2,7 @@ const sumAll = function (a, b) {
   let sum = 0;
   let max = a < b ? b : a;
   let min = a < b ? a : b;
+
   // if (typeof a != "number" && typeof b != "number") return "ERROR";
   if (!Number.isInteger(min) || !Number.isInteger(max)) return "ERROR";
 
