@@ -1,9 +1,13 @@
 const convertToCelsius = function (fr) {
-  return (fr - 32) / 1.8;
+  let c = (fr - 32) / 1.8;
+  let rounded = c.toFixed(1);
+  return +rounded;
 };
 
 const convertToFahrenheit = function (c) {
-  return c * 1.8 + 32;
+  let fr = c * 1.8 + 32;
+  let rounded = fr.toFixed(1);
+  return +rounded;
 };
 
 // Do not edit below this line
