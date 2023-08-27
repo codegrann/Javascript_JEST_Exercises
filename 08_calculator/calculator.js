@@ -23,10 +23,16 @@ const power = function (a, b) {
 };
 
 const factorial = function (a) {
+  let fac = 1;
   if (a == 0 || a == 1) return 1;
+  // USING A FOR LOOP
   for (i = 1; i <= a; i++) {
-    return a * factorial(a - 1);
+    fac *= i;
   }
+  return fac;
+
+  // USING RECURRING OF A FUNCTION
+  //  return a * factorial(a - 1);
 };
 
 // Do not edit below this line
