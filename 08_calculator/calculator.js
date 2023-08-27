@@ -12,7 +12,11 @@ const sum = function (array) {
   }, 0);
 };
 
-const multiply = function () {};
+const multiply = function (array) {
+  return array.reduce((product, el) => {
+    return product * el;
+  }, 1);
+};
 
 const power = function () {};
 
