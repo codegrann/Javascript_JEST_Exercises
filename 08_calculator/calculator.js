@@ -26,8 +26,8 @@ const factorial = function (a) {
   let fac = 1;
   if (a == 0 || a == 1) return 1;
   // if (a == 1) return 1;
-  for (i = a; i > 0; i--) {
-    return fac * i;
+  for (i = 1; i <= a; i++) {
+    return a * factorial(a - 1);
   }
 };
 
