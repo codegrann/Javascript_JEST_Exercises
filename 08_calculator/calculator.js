@@ -23,9 +23,7 @@ const power = function (a, b) {
 };
 
 const factorial = function (a) {
-  let fac = 1;
   if (a == 0 || a == 1) return 1;
-  // if (a == 1) return 1;
   for (i = 1; i <= a; i++) {
     return a * factorial(a - 1);
   }
