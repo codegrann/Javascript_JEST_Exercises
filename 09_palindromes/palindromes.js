@@ -2,8 +2,10 @@ const palindromes = function (string) {
   let arrOfString = string.split("");
   let reversedString = [...arrOfString].reverse();
   let joinedString = arrOfString.join();
-  let toMatch = /{a-zA-Z}/i;
-  joineReversedString = reversedString.join();
+  let toMatch = //i;
+    (joineReversedString = reversedString.join());
+  console.log(joinedString.match(toMatch));
+  console.log(toMatch.test(joinedString));
 
   return joinedString == joineReversedString;
 
