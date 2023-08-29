@@ -1,14 +1,8 @@
 const fibonacci = function (n) {
-  let array = [];
-  array[0] = 1;
-  array[1] = array[0];
-  console.log(array[1]);
-  if (n == 0) return 0;
-  if (n == 1) return 1;
+  if (n < 0) return "OOPS";
+  if (n === 0) return 0;
 
-  for (i = 1; i <= array.length; i++) {
-    array[i] = array[i - 1] + array[i - 2];
-  }
+  for (i = 1; i <= n; n++) {}
 };
 fibonacci();
 
