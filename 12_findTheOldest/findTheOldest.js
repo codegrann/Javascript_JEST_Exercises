@@ -5,7 +5,7 @@ const findTheOldest = function (people) {
   let ageDiff = people.map((person) => {
     person.yearOfDeath - person.yearOfBirth;
   });
-  return currentYear;
+  return people;
 };
 
 // findTheOldest()
